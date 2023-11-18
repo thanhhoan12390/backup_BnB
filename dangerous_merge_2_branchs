@@ -1,0 +1,19 @@
+##### feature là branch phụ
+###### main là branch chính
+###### merge 2 branch
+#######  cách này nguy hiểm tìm hiểu sâu hơn khi dùng lần sau
+###### link tham khảo
+https://nhobethoi.com/git-merge-gop-hai-branch-lai-voi-nhau/
+https://www.varonis.com/blog/git-branching
+
+#####
+
+
+
+git checkout feature
+git rebase main
+
+git checkout main
+git merge feature
+
+git push --set-upstream origin main
