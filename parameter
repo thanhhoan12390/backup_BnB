@@ -1,0 +1,15 @@
+goc, van toc, van toc quay, gia tri vung 1, gia tri vung 2, gia tri vung 3, gia tri vung 4
+
+pi = math.pi	
+
+giả sử đi thằng tạo thành đường tròn bán kính R, vận tốc tới là l, vận tốc ngang là a
+
+c = 2pi
+
+t.a = goc nó đã cua đuợc = anpha
+
+V_y = l.cos(anpha)
+V_x = l.sin(anpha)
+
+nguyen hàm l.cos(t.a)(dt) từ 0 đến t = l * ( 1 / a ) * sin( a . t )  
+nguyen hàm l.sin(t.a)(dt) từ 0 đến t = l * ( -1 / a) * cos ( a . t ) = 0.05
